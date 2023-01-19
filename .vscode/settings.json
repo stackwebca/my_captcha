@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.useWebExt": true,
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/",
+        "proxyUri": "http://127.0.0.1/my_captcha/"
+    },
+    "phpcbf.onsave": true,
+}

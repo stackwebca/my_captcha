@@ -1,0 +1,3 @@
+settings.json is for the live server, always list the projects folder name to go live
+
+launch.json is setup for port 8000 the new apache service
