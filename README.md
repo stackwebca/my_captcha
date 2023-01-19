@@ -10,4 +10,4 @@ because this will not happen before the challenge is answered correctly we can e
 
 protecting multiple buttons on the same page is possible by duplicating this mycaptcha.js and renaming and updating the
 myCaptcha" id to another name can be used with any mail script or used with the mail-frm.js script provided in this package.  
-attached is a sample html file to test the plugin on a form, and a mailer.php file to test the mail-frm.js script
+attached is a sample index.php file to test the plugin on a form, and a mailer.php file to test the mail-frm.js script
