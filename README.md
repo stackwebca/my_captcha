@@ -1,13 +1,5 @@
-# my_captcha
-A simple captcha plugin to eliminate spam messages from submit forms
+This simple captcha plugin eliminates spam messages from submit forms. The plugin hides and disables the submit button, and instead generates a slider input element. 
 
-This plugin will hide and disable the submit button and generate a slider input element in its place.
-to use in your project wrap your button to protect inside a div and use ID and Class of "myCaptcha" for the div
-The plugin will prompt a user to move the slider to a randomly chosen position of left or right to receive a random math challenge
-the actual submit button will remain disabled and hidden until the slider and the math challenge has been answered correctly
-the mail-frm.js script will use the localStorage created on this page to pass the mail script name/path to the sendContact() function
-because this will not happen before the challenge is answered correctly we can eliminate spam bots from sending messages
+To use in your project, wrap the protected button inside a div and use the ID and Class of "myCaptcha" for the div. The plugin will prompt the user to move the slider to a randomly chosen position of left or right and answer a random math challenge. The actual submit button will remain disabled and hidden until the slider and math challenge have been answered correctly. The mail-frm.js script uses the localStorage created on this page to pass the mail script name/path to the sendContact() function, ensuring that no spam bots can send messages before the challenge is answered correctly. To protect multiple buttons on the same page, duplicate the mycaptcha.js and rename and update the "myCaptcha" ID to another name. This plugin can be used with any mail script or with the mail-frm.js script provided in this package. 
 
-protecting multiple buttons on the same page is possible by duplicating this mycaptcha.js and renaming and updating the
-myCaptcha" id to another name can be used with any mail script or used with the mail-frm.js script provided in this package.  
-attached is a sample index.php file to test the plugin on a form, and a mailer.php file to test the mail-frm.js script
+Attached is a sample index.php file to test the plugin on a form and a mailer.php file to test the mail-frm.js script.
